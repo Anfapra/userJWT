@@ -1,0 +1,32 @@
+{
+  "name": "userjwt",
+  "version": "1.0.0",
+  "description": "Base para autenticación de usuarios en node.js con JSON Web Token",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anfapra/userJWT.git"
+  },
+  "keywords": [
+    "Authentication",
+    "JWT"
+  ],
+  "author": "Anfapra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anfapra/userJWT/issues"
+  },
+  "homepage": "https://github.com/Anfapra/userJWT#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
